@@ -1239,10 +1239,23 @@
             } else {
                 // Generate funny fake authors
                 const funnyAuthors = [
-                    'Dr. Buzz Beeson', 'Prof. Honey Combsworth', 'Bumble McFlightface', 'Queen B. Pollinater',
-                    'Stinger McMuffin', 'Dr. Waggle Dance', 'Prof. Nectar Sipper', 'Pollen Pantsworth',
-                    'Dr. Fuzzy Thorax', 'Wing Flapperton III', 'Prof. Hive Mind', 'Antennae Wiggler',
-                    'Dr. Striped Abdomen', 'Compound Eyes McGee', 'Prof. Hexagon Builder'
+                    'prof. dr hab. Awaria Serwerowa', 'dr inż. Krach Bazodanowy', 'mgr Błąd Krytyczny', 'prof. Null Pointerski',
+                    'dr hab. Deadlock Wieczny', 'inż. Timeout Przekroczony', 'prof. dr hab. Indeks Brakujący', 'mgr inż. Duplikat Rekordowy',
+                    'dr MongoDB Nierelacyjny', 'prof. NoSQL Chaotyczny', 'dr hab. Backup Zapomniany', 'mgr Cache Przepełniony',
+                    'prof. Query Nieoptymalny', 'dr inż. Update Bezklauzulowy', 'dr hab. Delete Kaskadowny', 'prof. Truncate Przypadkowy',
+                    'mgr inż. Join Kartezjański', 'dr Trigger Rekurencyjny', 'prof. dr hab. Transaction Rollbackowa', 'inż. Constraint Naruszony',
+                    'dr hab. Exception Nieobsłużony', 'prof. Memory Leakująca', 'mgr CPU Stuprocentowy', 'dr Disk Przepełniony',
+                    'prof. dr hab. Network Niedostępna', 'inż. Port Zajęty', 'dr hab. Permission Odmówiona', 'mgr Password Prosty',
+                    'prof. Injection SQLowy', 'dr Buffer Przepełniony', 'dr hab. Stack Overflowski', 'prof. Heap Skorumpowany',
+                    'mgr inż. Pointer Wiszący', 'dr Race Conditionowy', 'prof. dr hab. Mutex Deadlockowy', 'inż. Thread Zakleszczony',
+                    'dr hab. Process Zombie', 'prof. Fork Bombowy', 'mgr Segfault Nagły', 'dr Core Zdumpowany',
+                    'prof. dr hab. Git Konfliktowy', 'inż. Merge Nieudany', 'dr hab. Branch Zapomniany', 'mgr Commit Bezsensowny',
+                    'prof. Push Forcowany', 'dr Rebase Interaktywny', 'dr hab. Cherry Pick Selektywny', 'prof. Stash Zagubiony',
+                    'mgr inż. Docker Przepełniony', 'dr Kubernetes Skomplikowany', 'prof. dr hab. Microservice Rozproszona', 'inż. Lambda Timeoutowa',
+                    'dr hab. API Niedostępne', 'prof. REST Niespokojny', 'mgr GraphQL Przegadany', 'dr SOAP Mydlany',
+                    'prof. dr hab. Framework Przestarzały', 'inż. Library Deprecated', 'dr hab. Dependency Konfliktowa', 'mgr Package Zepsuty',
+                    'prof. Version Niekompatybilna', 'dr Build Nieudany', 'dr hab. Test Failujący', 'prof. Coverage Zerowe',
+                    'mgr inż. Debug Wieczny', 'dr Log Nadmiarowy', 'prof. dr hab. Metric Bezsensowna', 'inż. Alert Spamujący'
                 ];
                 
                 // Randomly select 2-4 authors
@@ -1259,21 +1272,31 @@
                 
                 // Generate funny fake abstracts
                 const funnyAbstracts = [
-                    'We demonstrate that bees debugging JavaScript run 47% faster when servers are painted with yellow stripes...',
-                    'Our groundbreaking research proves that bumblebees prefer PostgreSQL over MySQL by a factor of bzzzz...',
-                    'This paper presents conclusive evidence that server rooms perform better with artificial flowers installed...',
-                    'We discovered that playing "Flight of the Bumblebee" increases database query speed by 420%...',
-                    'Our study shows that hexagonal server racks improve cooling efficiency and make bees 200% happier...',
-                    'We prove mathematically that Polish servers crash less frequently when protected by digital bumblebees...',
-                    'This research demonstrates that API endpoints work better when named after different types of honey...',
-                    'Our findings indicate that Git commits are 69% more likely to succeed when prefixed with "bzzzz"...',
-                    'We show that servers running on pollen-based energy are both sustainable and delicious...',
-                    'This paper reveals that quantum entanglement between bees and servers creates infinite bandwidth...',
-                    'Our experiments confirm that machine learning models trained on bee dances achieve 99.9% accuracy...',
-                    'We demonstrate that blockchain technology was actually invented by bees 65 million years ago...',
-                    'This study proves that cloud computing works better when actual clouds contain at least 10 bees...',
-                    'Our research shows that debugging is 300% more effective when programmers wear bee costumes...',
-                    'We discovered that neural networks modeled after bee brains can predict tomorrow\'s memes...'
+                    'Nasze badania wykazały, że serwery PNB działają o 47% szybciej podczas pełni księżyca, ale tylko w dni parzyste...',
+                    'Udowadniamy, że MongoDB jest najlepszym wyborem dla systemu bibliograficznego, jeśli lubimy niespodzianki i brak spójności danych...',
+                    'Prezentujemy dowody na to, że brak transakcji w bazie danych zwiększa kreatywność administratorów o 420%...',
+                    'Odkryliśmy, że indeksy w PNB działają lepiej, gdy są usunięte - zapytania stają się wtedy bardziej medytatywne...',
+                    'Nasze badania pokazują, że SELECT * FROM wszystko jest optymalną strategią dla baz z miliardami rekordów...',
+                    'Matematycznie udowadniamy, że backup nie jest potrzebny, jeśli wierzymy w przeznaczenie i kosmiczną sprawiedliwość...',
+                    'Badania wykazały, że kartoteka papierowa ma lepszy czas odpowiedzi niż MongoDB w 73% przypadków...',
+                    'Nasze eksperymenty potwierdzają, że Excel może obsłużyć 10 milionów publikacji, jeśli mamy 512GB RAM...',
+                    'Pokazujemy, że reindeksowanie co godzinę jest doskonałym sposobem na utrzymanie administratorów w formie...',
+                    'Artykuł dowodzi, że UPDATE bez WHERE to najszybszy sposób na ujednolicenie danych w całej bazie...',
+                    'Odkryliśmy, że punktoza akademicka powoduje przepełnienie INTEGER w 69% systemów bibliograficznych...',
+                    'Badania pokazują, że pliki TXT są bardziej niezawodne niż relacyjne bazy danych w 99.9% awarii prądu...',
+                    'Udowadniamy, że NULL jako Impact Factor jest filozoficznie poprawną wartością dla 80% publikacji...',
+                    'Nasze dane wskazują, że 95% awarii PNB występuje o 15:00 w piątek - zjawisko nazwaliśmy "weekendozą"...',
+                    'Eksperymenty potwierdzają, że Ctrl+C, Ctrl+V jest najbardziej niezawodną metodą migracji danych między systemami...',
+                    'Pokazujemy, że 47-krotne złączenie tabel poprawia czytelność wyników o ujemne 2000%...',
+                    'Badania dowodzą, że normalizacja bazy danych jest mitem stworzonym przez lobby producentów dysków...',
+                    'Odkryliśmy, że restart serwera rozwiązuje 100% problemów, ale tylko na 5 minut...',
+                    'Artykuł pokazuje, że Stored Procedures z 1995 roku działają lepiej niż nowoczesne ORM w 420% przypadków...',
+                    'Udowadniamy, że UTF-8, Windows-1250 i Latin2 mogą współistnieć w jednej bazie, tworząc kwantową superpozycję znaków...',
+                    'Badania wykazały, że deadlock jest naturalnym stanem równowagi w systemach PNB, zapewniającym harmonię i spokój...',
+                    'Pokazujemy, że używanie NIP jako ORCID zwiększa cytowania o 69% wśród polskich naukowców...',
+                    'Odkryliśmy, że migracja z MySQL 3.23 do 3.24 wymaga minimum 10 lat planowania i 3 egzorcystów...',
+                    'Nasze testy dowodzą, że wyłączenie cache przyspiesza system o -300%, co jest rekordowym wynikiem...',
+                    'Badania pokazują, że tabela z 2 miliardami wierszy to optymalna wielkość dla pełnego table scan...'
                 ];
                 
                 paperDiv.innerHTML = `
@@ -1319,59 +1342,214 @@
             
             // Funny fake papers
             const fakePapers = [
-                { title: 'Why Bees Make Better Database Administrators Than Humans', doi: '10.BZZZ/honey.2024.001' },
-                { title: 'The Waggle Dance Protocol: A New Approach to Network Communication', doi: '10.BZZZ/dance.2024.002' },
-                { title: 'Hexagonal Architecture: Why Six-Sided Servers Are Superior', doi: '10.BZZZ/hex.2024.003' },
-                { title: 'Pollen-Based Encryption: Nature\'s Answer to Cybersecurity', doi: '10.BZZZ/pollen.2024.004' },
-                { title: 'Queen Bee Leadership Patterns in Agile Development', doi: '10.BZZZ/queen.2024.005' },
-                { title: 'The Hive Mind Approach to Distributed Computing', doi: '10.BZZZ/hive.2024.006' },
-                { title: 'Nectar-Driven Development: Sweet Solutions for Bitter Problems', doi: '10.BZZZ/nectar.2024.007' },
-                { title: 'Stinger Security: Defending Polish Servers from Digital Wasps', doi: '10.BZZZ/sting.2024.008' },
-                { title: 'Buzz-Driven Testing: How Vibrations Improve Code Quality', doi: '10.BZZZ/buzz.2024.009' },
-                { title: 'The Flower-Server Interface: Optimizing Pollination Protocols', doi: '10.BZZZ/flower.2024.010' },
-                { title: 'Swarm Intelligence vs Artificial Intelligence: Bees Win Every Time', doi: '10.BZZZ/swarm.2024.011' },
-                { title: 'Honeycomb Data Structures: Maximum Storage, Minimum Waste', doi: '10.BZZZ/comb.2024.012' },
-                { title: 'Wing-Beat Frequency Analysis for Server Load Balancing', doi: '10.BZZZ/wing.2024.013' },
-                { title: 'The Bumble Algorithm: Chaotic Flying Patterns in Search Optimization', doi: '10.BZZZ/bumble.2024.014' },
-                { title: 'Royal Jelly as a Performance Enhancer for Legacy Systems', doi: '10.BZZZ/jelly.2024.015' },
-                { title: 'Antenna-Based Wireless Communication: Lessons from Insects', doi: '10.BZZZ/antenna.2024.016' },
-                { title: 'The Economics of Digital Pollination in Cloud Environments', doi: '10.BZZZ/cloud.2024.017' },
-                { title: 'Compound Eyes: Multi-Perspective Debugging Techniques', doi: '10.BZZZ/eyes.2024.018' },
-                { title: 'Fuzzy Logic: Why Bumblebees Outperform Boolean Operations', doi: '10.BZZZ/fuzzy.2024.019' },
-                { title: 'The Flight Path Algorithm: Non-Linear Solutions to Linear Problems', doi: '10.BZZZ/flight.2024.020' }
+                { title: 'Wpływ pełni księżyca na awaryjność serwerów PNB: badanie longitudinalne', doi: '10.PNB/awaria.2024.001' },
+                { title: 'MongoDB jako główna baza bibliograficzna: studium przypadku katastrofy', doi: '10.PNB/mongodb.2024.002' },
+                { title: 'Dlaczego transakcje są przereklamowane: manifest anty-ACID', doi: '10.PNB/acid.2024.003' },
+                { title: 'Optymalizacja przez usunięcie indeksów: rewolucyjna metoda przyspieszania PNB', doi: '10.PNB/indeks.2024.004' },
+                { title: 'Teoria chaosu w zarządzaniu uprawnieniami użytkowników Popularnej Niesłychanie Biblioteki', doi: '10.PNB/chaos.2024.005' },
+                { title: 'Wpływ temperatury pomieszczenia serwerowni na ilość duplikatów w bazie', doi: '10.PNB/temp.2024.006' },
+                { title: 'NoSQL znaczy No Problem: jak stracić wszystkie dane i udawać że tak miało być', doi: '10.PNB/nosql.2024.007' },
+                { title: 'Dlaczego SELECT * jest najlepszą praktyką: poradnik dla administratorów PNB', doi: '10.PNB/select.2024.008' },
+                { title: 'Backup? Po co backup? Filozoficzne rozważania o ulotności danych bibliograficznych', doi: '10.PNB/backup.2024.009' },
+                { title: 'Kartoteka papierowa vs MongoDB: nieoczekiwany zwycięzca testu wydajności', doi: '10.PNB/kartoteka.2024.010' },
+                { title: 'Excel jako baza danych 10 milionów publikacji: sukces czy porażka?', doi: '10.PNB/excel.2024.011' },
+                { title: 'Reindeksowanie co godzinę: sprawdzony sposób na zajęcie 100% CPU', doi: '10.PNB/cpu.2024.012' },
+                { title: 'Jak jeden UPDATE bez WHERE zniszczył dorobek naukowy całego kraju', doi: '10.PNB/update.2024.013' },
+                { title: 'Punktoza akademicka jako główna przyczyna przepełnienia INTEGER w bazie PNB', doi: '10.PNB/punktoza.2024.014' },
+                { title: 'Dlaczego relacyjne bazy danych są passé: manifest zwolenników przechowywania w TXT', doi: '10.PNB/txt.2024.015' },
+                { title: 'Impact Factor równy NULL: problemy z typami danych w systemach bibliometrycznych', doi: '10.PNB/null.2024.016' },
+                { title: 'Awaria o 15:00 w piątek: analiza statystyczna 500 przypadków z PNB', doi: '10.PNB/piatek.2024.017' },
+                { title: 'Ctrl+C, Ctrl+V jako metodologia importu danych bibliograficznych', doi: '10.PNB/ctrlc.2024.018' },
+                { title: 'Kiedy JOIN staje się koszmarem: historia 47-krotnego złączenia tabel w PNB', doi: '10.PNB/join.2024.019' },
+                { title: 'Normalizacja bazy danych: mit czy legenda miejska administratorów?', doi: '10.PNB/normal.2024.020' },
+                { title: 'Czy restart serwera rozwiązuje wszystkie problemy? Badanie empiryczne na próbie PNB', doi: '10.PNB/restart.2024.021' },
+                { title: 'Stored Procedures napisane w 1995: dlaczego wciąż są sercem systemu PNB', doi: '10.PNB/stored.2024.022' },
+                { title: 'UTF-8, Windows-1250 czy Latin2: wojna kodowań w polskiej bibliografii', doi: '10.PNB/utf.2024.023' },
+                { title: 'Deadlock jako stan naturalny: filozofia współbieżności w PNB', doi: '10.PNB/deadlock.2024.024' },
+                { title: 'ORCID czy NIP? Dylema	t identyfikatorów w systemach bibliograficznych', doi: '10.PNB/orcid.2024.025' },
+                { title: 'Migracja z MySQL 3.23 do MySQL 3.24: 10 lat planowania w PNB', doi: '10.PNB/mysql.2024.026' },
+                { title: 'Dlaczego cache jest wyłączony: tajemnice wydajności Popularnej Niesłychanie Biblioteki', doi: '10.PNB/cache.2024.027' },
+                { title: 'Tabela z 2 miliardami wierszy: kiedy partycjonowanie przestaje być opcją', doi: '10.PNB/partit.2024.028' },
+                { title: 'API które zwraca HTML: innowacyjne podejście PNB do web services', doi: '10.PNB/api.2024.029' },
+                { title: 'Timeout 30 sekund na zapytanie: optymalizacja czasu kawy administratora', doi: '10.PNB/timeout.2024.030' },
+                { title: 'CrossRef, PubMed, Scopus: jak zaimportować wszystko i stworzyć duplikaty', doi: '10.PNB/import.2024.031' },
+                { title: 'DROP TABLE bez WHERE: autobiografia byłego administratora PNB', doi: '10.PNB/drop.2024.032' },
+                { title: 'Lorem Ipsum jako tytuł 30% publikacji: problem z importem danych testowych do produkcji', doi: '10.PNB/lorem.2024.033' },
+                { title: 'Pięć różnych systemów bibliograficznych w jednej instytucji: przypadek PNB', doi: '10.PNB/piec.2024.034' },
+                { title: 'JSON w polu VARCHAR: nowoczesne podejście do przechowywania metadanych', doi: '10.PNB/json.2024.035' },
+                { title: 'Dlaczego indeks na polu BOOLEAN przyspiesza zapytania: magia czy nauka?', doi: '10.PNB/bool.2024.036' },
+                { title: 'Replikacja Master-Master-Master: gdy redundancja wymyka się spod kontroli', doi: '10.PNB/replik.2024.037' },
+                { title: 'Czy 500 kolumn w jednej tabeli to za dużo? Studium przypadku PNB', doi: '10.PNB/kolumny.2024.038' },
+                { title: 'VACUUM FULL co 5 minut: PostgreSQL w służbie Popularnej Niesłychanie Biblioteki', doi: '10.PNB/vacuum.2024.039' },
+                { title: 'Dlaczego nasz ORM generuje zapytania o długości 50000 znaków', doi: '10.PNB/orm.2024.040' },
+                { title: 'Backup na tym samym dysku co dane: zarządzanie ryzykiem w stylu PNB', doi: '10.PNB/dysk.2024.041' },
+                { title: 'Hasło admin/admin: bezpieczeństwo przez niejawność w systemach bibliograficznych', doi: '10.PNB/haslo.2024.042' },
+                { title: 'SQL Injection w 2024: dlaczego prepared statements są przereklamowane', doi: '10.PNB/inject.2024.043' },
+                { title: 'Gdy ORDER BY RAND() staje się production ready: optymalizacje PNB', doi: '10.PNB/rand.2024.044' },
+                { title: 'Milion autorów o nazwisku NULL: problemy z importem danych', doi: '10.PNB/autor.2024.045' },
+                { title: 'TRUNCATE zamiast DELETE: szybkie czyszczenie bazy produkcyjnej', doi: '10.PNB/trunc.2024.046' },
+                { title: 'Czy 20-poziomowe zagnieżdżenie podzapytań to przesada? Analiza zapytań PNB', doi: '10.PNB/nested.2024.047' },
+                { title: 'Stored Procedure na 5000 linii: arcydzieło inżynierii czy koszmar maintenance', doi: '10.PNB/5000.2024.048' },
+                { title: 'Trigger który wywołuje trigger: rekurencja w bazach danych PNB', doi: '10.PNB/trigger.2024.049' },
+                { title: 'Dlaczego nasza baza ma 90% pustych pól: teoria rzadkich macierzy w praktyce', doi: '10.PNB/puste.2024.050' },
+                { title: 'DISTINCT na każdym SELECT: paranoja czy rozsądek w świecie duplikatów', doi: '10.PNB/distinct.2024.051' },
+                { title: 'Migracja podczas działania systemu: ekstremalne sporty w PNB', doi: '10.PNB/live.2024.052' },
+                { title: 'Varchar(MAX) dla wszystkiego: uniwersalne rozwiązanie problemów ze schematem', doi: '10.PNB/varchar.2024.053' },
+                { title: 'Test na produkcji: jedyna pewna metoda weryfikacji w PNB', doi: '10.PNB/prod.2024.054' },
+                { title: 'Git jako baza danych: rewolucyjne podejście do wersjonowania bibliografii', doi: '10.PNB/git.2024.055' },
+                { title: 'Blockchain dla cytowań: jak skomplikować prosty licznik', doi: '10.PNB/chain.2024.056' },
+                { title: 'Machine Learning do przewidywania awarii: gdy model ma 0% skuteczności', doi: '10.PNB/ml.2024.057' },
+                { title: 'Mikrousługi: jak z jednego systemu zrobić 50 problemów', doi: '10.PNB/micro.2024.058' },
+                { title: 'GraphQL dla prostego CRUD: overengineering w Popularnej Niesłychanie Bibliotece', doi: '10.PNB/graph.2024.059' },
+                { title: 'Kubernetes dla pojedynczej instancji: skalowanie w dół jako sztuka', doi: '10.PNB/k8s.2024.060' },
+                { title: 'Serverless dla systemu działającego 24/7: paradoks nowoczesnej architektury', doi: '10.PNB/lambda.2024.061' },
+                { title: 'WebAssembly do wyświetlania listy publikacji: bo JavaScript to za mało', doi: '10.PNB/wasm.2024.062' },
+                { title: 'YAML jako format przechowywania 10 milionów rekordów', doi: '10.PNB/yaml.2024.063' },
+                { title: 'REST API które wymaga SOAP do autoryzacji: hybryda PNB', doi: '10.PNB/soap.2024.064' },
+                { title: 'Dlaczego nasz CI/CD deploy trwa 6 godzin: optymalizacja przez spowolnienie', doi: '10.PNB/cicd.2024.065' },
+                { title: 'Docker image ważący 15GB: wszystko w jednym kontenerze', doi: '10.PNB/docker.2024.066' },
+                { title: 'npm install który pobiera 2000 pakietów dla Hello World', doi: '10.PNB/npm.2024.067' },
+                { title: 'Monolit w 40 językach programowania: dziedzictwo PNB', doi: '10.PNB/mono.2024.068' },
+                { title: 'CSS framework do stylowania PDFów: innowacje w generowaniu raportów', doi: '10.PNB/css.2024.069' },
+                { title: 'WebSocket do pobierania statycznych danych: real-time wszystko', doi: '10.PNB/socket.2024.070' },
+                { title: 'Baza grafowa do przechowywania pojedynczej tabeli: Neo4j w PNB', doi: '10.PNB/neo4j.2024.071' },
+                { title: 'Redis jako primary database: gdy cache staje się źródłem prawdy', doi: '10.PNB/redis.2024.072' },
+                { title: 'Elasticsearch do przeszukiwania 100 rekordów: młot na muchę', doi: '10.PNB/elastic.2024.073' },
+                { title: 'Kafka do kolejkowania maili: event streaming dla 5 wiadomości dziennie', doi: '10.PNB/kafka.2024.074' },
+                { title: 'Terraform do zarządzania jednym serwerem: Infrastructure as Overkill', doi: '10.PNB/terra.2024.075' },
+                { title: 'React, Angular i Vue w jednym projekcie: wojna frameworków w PNB', doi: '10.PNB/frameworks.2024.076' },
+                { title: 'TypeScript z any everywhere: typowanie dla niewtajemniczonych', doi: '10.PNB/any.2024.077' },
+                { title: 'Agile który trwa 5 lat: sprint maraton w Popularnej Niesłychanie Bibliotece', doi: '10.PNB/agile.2024.078' },
+                { title: 'Daily standup raz w miesiącu: interpretacja metodyk w PNB', doi: '10.PNB/daily.2024.079' },
+                { title: 'Code review po deploy na produkcję: retrospektywne podejście do jakości', doi: '10.PNB/review.2024.080' },
+                { title: 'Unit testy pisane po fakcie: 0% pokrycia jako cel strategiczny', doi: '10.PNB/testy.2024.081' },
+                { title: 'Dokumentacja w komentarzach kodu: jedyne źródło prawdy o systemie PNB', doi: '10.PNB/docs.2024.082' },
+                { title: 'README.md ostatnio aktualizowane w 2007: ponadczasowość dokumentacji', doi: '10.PNB/readme.2024.083' },
+                { title: 'Dlaczego merge conflict rozwiązujemy poprzez usunięcie obu wersji', doi: '10.PNB/merge.2024.084' },
+                { title: 'Feature branch który istnieje 3 lata: długoterminowe planowanie w PNB', doi: '10.PNB/branch.2024.085' },
+                { title: 'Singleton jako antipattern: dlaczego PNB ma 47 instancji singletona', doi: '10.PNB/singleton.2024.086' },
+                { title: 'Garbage Collector wyłączony od 2019: optymalizacja pamięci metodą ignorancji', doi: '10.PNB/gc.2024.087' },
+                { title: 'Regex do walidacji emaila na 4000 znaków: perfekcjonizm w PNB', doi: '10.PNB/regex.2024.088' },
+                { title: 'Try-catch który łapie Exception i nic nie robi: filozofia zen w obsłudze błędów', doi: '10.PNB/catch.2024.089' },
+                { title: 'Logowanie każdego SELECT do pliku: jak zapełnić dysk w 3 godziny', doi: '10.PNB/log.2024.090' },
+                { title: 'Hardkodowane hasła w kodzie źródłowym: jawność jako forma bezpieczeństwa', doi: '10.PNB/hardcode.2024.091' },
+                { title: 'Cron który uruchamia się co sekundę: maksymalizacja wykorzystania zasobów', doi: '10.PNB/cron.2024.092' },
+                { title: 'Infinite loop jako mechanizm retry: upór w dążeniu do celu', doi: '10.PNB/loop.2024.093' },
+                { title: 'CSS z !important przy każdej regule: dominacja stylistyczna w PNB', doi: '10.PNB/important.2024.094' },
+                { title: 'JavaScript eval() wszędzie: dynamiczne podejście do wykonywania kodu', doi: '10.PNB/eval.2024.095' },
+                { title: 'Global variables jako jedyny sposób komunikacji: prostota ponad enkapsulację', doi: '10.PNB/global.2024.096' },
+                { title: 'Copy-paste driven development: 90% kodu PNB to duplikaty', doi: '10.PNB/copypaste.2024.097' },
+                { title: 'Komentarze w kodzie pisane w 5 różnych językach: wielokulturowość w dokumentacji', doi: '10.PNB/comment.2024.098' },
+                { title: 'TODO które istnieją od 2003: prokrastynacja jako metodologia rozwoju', doi: '10.PNB/todo.2024.099' },
+                { title: 'Deployment w piątek o 16:59: ekstremalne sporty w administracji', doi: '10.PNB/deploy.2024.100' },
+                { title: 'Rollback niemożliwy bo nikt nie pamięta poprzedniej wersji: amnezja wersjonowania', doi: '10.PNB/rollback.2024.101' },
+                { title: 'Hasła przechowywane w plain text: czytelność ponad wszystko', doi: '10.PNB/plain.2024.102' },
+                { title: 'CHMOD 777 na wszystko: demokracja w uprawnieniach plików', doi: '10.PNB/chmod.2024.103' },
+                { title: 'Root jako jedyny użytkownik: prostota zarządzania uprawnieniami', doi: '10.PNB/root.2024.104' },
+                { title: 'Firewall wyłączony bo blokował dostęp: pragmatyczne podejście do bezpieczeństwa', doi: '10.PNB/firewall.2024.105' },
+                { title: 'SSL certyfikat wygasł 3 lata temu: retro security w PNB', doi: '10.PNB/ssl.2024.106' },
+                { title: 'Windows XP jako system operacyjny serwera: nostalgia w infrastrukturze', doi: '10.PNB/winxp.2024.107' },
+                { title: 'PHP 5.2 w 2024: stabilność przez stagnację', doi: '10.PNB/php.2024.108' },
+                { title: 'Internet Explorer 6 jako jedyna wspierana przeglądarka: ekskluzywność w PNB', doi: '10.PNB/ie6.2024.109' },
+                { title: 'Flash jako główna technologia frontend: retro UX w bibliotece', doi: '10.PNB/flash.2024.110' },
+                { title: 'FTP bez szyfrowania do deploymentu: tradycyjne metody wdrażania', doi: '10.PNB/ftp.2024.111' },
+                { title: 'Telnet zamiast SSH: minimalizm w protokołach', doi: '10.PNB/telnet.2024.112' },
+                { title: 'ZIP z hasłem "haslo123" jako metoda backupu: prostota w archiwizacji', doi: '10.PNB/zip.2024.113' },
+                { title: 'Email jako baza danych: innowacyjne wykorzystanie protokołu SMTP', doi: '10.PNB/email.2024.114' },
+                { title: 'Word jako system kontroli wersji: Track Changes w służbie programistów', doi: '10.PNB/word.2024.115' },
+                { title: 'PowerPoint jako narzędzie do projektowania baz danych: wizualizacja schematów', doi: '10.PNB/ppt.2024.116' },
+                { title: 'Access jako backend dla 100000 użytkowników: skalowanie w górę metodą nadziei', doi: '10.PNB/access.2024.117' },
+                { title: 'Ping jako monitoring: jeśli pinguje to działa', doi: '10.PNB/ping.2024.118' },
+                { title: 'Print debugging jako jedyna metoda diagnostyki: echo driven development', doi: '10.PNB/print.2024.119' },
+                { title: 'Kopiowanie bazy danych przez Ctrl+A, Ctrl+C: ręczna replikacja w PNB', doi: '10.PNB/manual.2024.120' },
+                { title: 'Restart jako rozwiązanie każdego problemu: uniwersalna metoda naprawcza', doi: '10.PNB/reboot.2024.121' },
+                { title: 'Task Manager jako narzędzie do zabijania procesów: brutalna siła w zarządzaniu', doi: '10.PNB/taskmgr.2024.122' },
+                { title: 'Defragmentacja dysku co godzinę: obsesja porządku w PNB', doi: '10.PNB/defrag.2024.123' },
+                { title: 'RAID 0 jako jedyny backup: życie na krawędzi', doi: '10.PNB/raid0.2024.124' },
+                { title: 'Pendrive jako serwer produkcyjny: mobilność w infrastrukturze', doi: '10.PNB/pendrive.2024.125' },
+                { title: 'Hotspot z telefonu jako główne łącze internetowe: 5G w służbie biblioteki', doi: '10.PNB/hotspot.2024.126' },
+                { title: 'Bitcoin mining na serwerze PNB: dywersyfikacja przychodów biblioteki', doi: '10.PNB/mining.2024.127' },
+                { title: 'Torrent jako system dystrybucji publikacji: P2P w bibliografii', doi: '10.PNB/torrent.2024.128' },
+                { title: 'WhatsApp jako system ticketowy: nowoczesna obsługa użytkowników', doi: '10.PNB/whatsapp.2024.129' },
+                { title: 'TikTok jako platforma do szkoleń administratorów: edukacja w 60 sekund', doi: '10.PNB/tiktok.2024.130' },
+                { title: 'Instagram Stories jako changelog: wizualna historia zmian w systemie', doi: '10.PNB/insta.2024.131' },
+                { title: 'Facebook Messenger jako system powiadomień o awariach: social media w monitoringu', doi: '10.PNB/messenger.2024.132' },
+                { title: 'Google Translate jako walidator danych bibliograficznych: lingwistyczna weryfikacja', doi: '10.PNB/translate.2024.133' },
+                { title: 'Wikipedia jako źródło prawdy o publikacjach: crowd-sourced bibliografia', doi: '10.PNB/wiki.2024.134' },
+                { title: 'ChatGPT jako DBA: sztuczna inteligencja zarządza bazą PNB', doi: '10.PNB/chatgpt.2024.135' },
+                { title: 'Alexa jako interfejs do bazy danych: "Alexa, znajdź publikacje o pszczołach"', doi: '10.PNB/alexa.2024.136' },
+                { title: 'IoT czujniki wilgotności w serwerowni: gdy wilgoć przekracza 90%, system się wyłącza', doi: '10.PNB/iot.2024.137' },
+                { title: 'Blockchain do przechowywania haseł: decentralizacja bezpieczeństwa', doi: '10.PNB/blockchain.2024.138' },
+                { title: 'NFT jako identyfikatory publikacji: każdy artykuł to unikatowy token', doi: '10.PNB/nft.2024.139' },
+                { title: 'Metaverse jako interfejs użytkownika: VR w służbie bibliografii', doi: '10.PNB/meta.2024.140' },
+                { title: 'AI która generuje publikacje gdy brakuje danych: kreatywne wypełnianie luk', doi: '10.PNB/aigen.2024.141' },
+                { title: 'Quantum computing do sortowania listy 10 elementów: nadmiarowa moc obliczeniowa', doi: '10.PNB/quantum.2024.142' },
+                { title: '5 różnych wersji jQuery na jednej stronie: więcej znaczy lepiej', doi: '10.PNB/jquery.2024.143' },
+                { title: 'Bootstrap, Tailwind i Foundation razem: wojna frameworków CSS', doi: '10.PNB/csswars.2024.144' },
+                { title: 'node_modules większe niż cała baza danych: paradoks zależności', doi: '10.PNB/nodemodules.2024.145' },
+                { title: 'Webpack config na 3000 linii: konfiguracja jako sztuka', doi: '10.PNB/webpack.2024.146' },
+                { title: 'CI/CD pipeline który nigdy nie przechodzi: czerwone jako nowy zielony', doi: '10.PNB/pipeline.2024.147' },
+                { title: 'Git history z 90% commit messages "fix" i "asdf": poezja wersjonowania', doi: '10.PNB/commits.2024.148' },
+                { title: 'Merge z 10000 konfliktami: ręczne rozwiązywanie jako forma medytacji', doi: '10.PNB/conflicts.2024.149' },
+                { title: '.gitignore który ignoruje .gitignore: rekurencja w kontroli wersji', doi: '10.PNB/gitignore.2024.150' },
+                { title: 'Wpływ muzyki disco polo na wzrost pomidorów: badania terenowe z Podlasia', doi: '10.PNB/pomidory.2024.151' },
+                { title: 'Czy koty naprawdę widzą duchy? Analiza 10000 godzin nagrań z kamer', doi: '10.PNB/koty.2024.152' },
+                { title: 'Korelacja między liczbą flamingów w zoo a notowaniami giełdowymi: przypadek czy przyczynowość?', doi: '10.PNB/flamingi.2024.153' },
+                { title: 'Telepatie u małży: komunikacja kwantowa w Bałtyku', doi: '10.PNB/malze.2024.154' },
+                { title: 'Dlaczego chleb zawsze spada masłem w dół: grawitacja selektywna w kuchni', doi: '10.PNB/chleb.2024.155' },
+                { title: 'Inteligencja emocjonalna ziemniaków: czy warzywa czują ból podczas obierania?', doi: '10.PNB/ziemniaki.2024.156' },
+                { title: 'Wpływ serialu "Ranczo" na migrację bocianów: nieoczekiwane konsekwencje kultury masowej', doi: '10.PNB/bociany.2024.157' },
+                { title: 'Matematyczny dowód że pierogi ruskie są lepsze od pierogów z kapustą i grzybami', doi: '10.PNB/pierogi.2024.158' },
+                { title: 'Teleportacja schabowego: eksperymenty z kwantowym transportem kotletów', doi: '10.PNB/schabowy.2024.159' },
+                { title: 'Czy drzewa plotkują? Analiza sygnałów chemicznych w Puszczy Białowieskiej', doi: '10.PNB/drzewa.2024.160' },
+                { title: 'Wpływ imienia na smak jogurtu: dlaczego "Danone" smakuje lepiej niż "Jogurt"', doi: '10.PNB/jogurt.2024.161' },
+                { title: 'Entropia w kolejkach do kas w Biedronce: modelowanie chaosu deterministycznego', doi: '10.PNB/biedronka.2024.162' },
+                { title: 'Czy liczba dziur w serze szwajcarskim jest stała Plancka: rewolucja w fizyce nabiału', doi: '10.PNB/ser.2024.163' },
+                { title: 'Psychologia tłumu w tramwaju: dlaczego zawsze ktoś stoi na twojej stopie', doi: '10.PNB/tramwaj.2024.164' },
+                { title: 'Teoria strun w makaronie: topologia spaghetti bolognese', doi: '10.PNB/makaron.2024.165' },
+                { title: 'Efekt motyla w Żabce: jak zakup hot-doga wpływa na klimat globalny', doi: '10.PNB/zabka.2024.166' },
+                { title: 'Dlaczego kluczyki zawsze są w ostatnim miejscu gdzie szukasz: prawo Murphy\'ego w praktyce', doi: '10.PNB/klucze.2024.167' },
+                { title: 'Kwantowa superpozycja kota Schrödingera który jednocześnie śpi i domaga się jedzenia', doi: '10.PNB/schrodinger.2024.168' },
+                { title: 'Analiza DNA barszczu Sosnowskiego: dowody na pozaziemskie pochodzenie', doi: '10.PNB/barszcz.2024.169' },
+                { title: 'Wpływ fazy księżyca na jakość kawy z ekspresu w urzędzie: badanie empiryczne', doi: '10.PNB/kawa.2024.170' },
+                { title: 'Matematyka kolejek w przychodni: dowód że czas płynie wolniej w poczekalni', doi: '10.PNB/przychodnia.2024.171' },
+                { title: 'Termodynamika zupy pomidorowej: dlaczego zawsze jest za gorąca lub za zimna', doi: '10.PNB/zupa.2024.172' },
+                { title: 'Genetyka determinuje preferencje: Team Pierogi czy Team Pizza?', doi: '10.PNB/genetyka.2024.173' },
+                { title: 'Wpływ memów internetowych na ewolucję świadomości zbiorowej szczurów laboratoryjnych', doi: '10.PNB/memy.2024.174' },
+                { title: 'Dlaczego autobusy jeżdżą po trzy naraz: teoria konspiracji czy mechanika kwantowa?', doi: '10.PNB/autobusy.2024.175' },
+                { title: 'Archeologia śmietnika: 5000 lat historii wyrzucania śmieci w Warszawie', doi: '10.PNB/smietnik.2024.176' },
+                { title: 'Czy rośliny doniczkowe szpiegują właścicieli: paranoja czy prawda?', doi: '10.PNB/doniczki.2024.177' },
+                { title: 'Statystyczna analiza prawdopodobieństwa znalezienia wolnego miejsca parkingowego w centrum', doi: '10.PNB/parking.2024.178' },
+                { title: 'Neurobiologia prokrastynacji: dlaczego mózg woli YouTube od pracy', doi: '10.PNB/prokrastynacja.2024.179' },
+                { title: 'Fizyka kropli deszczu która zawsze trafia dokładnie za kołnierz', doi: '10.PNB/deszcz.2024.180' },
+                { title: 'Chemiczne podstawy zapachu nowych książek: narkotyk dla bibliofilów', doi: '10.PNB/ksiazki.2024.181' },
+                { title: 'Dlaczego zawsze brakuje jednej skarpetki: czarne dziury w pralce', doi: '10.PNB/skarpetki.2024.182' },
+                { title: 'Socjologia windy: dlaczego wszyscy patrzą w sufit', doi: '10.PNB/winda.2024.183' },
+                { title: 'Teoria względności w kolejce do kasy: czas płynie wolniej gdy się spieszysz', doi: '10.PNB/kolejka.2024.184' },
+                { title: 'Mikrobiologia klawiatury: nowe formy życia odkryte między klawiszami', doi: '10.PNB/klawiatura.2024.185' },
+                { title: 'Wpływ horoskopów na decyzje zakupowe chomików: badanie behawioralne', doi: '10.PNB/chomiki.2024.186' },
+                { title: 'Dlaczego tosty zawsze spadają masłem w dół: 10000 eksperymentów później', doi: '10.PNB/tosty.2024.187' },
+                { title: 'Psychoanaliza lodówki: co mówi o tobie zawartość twojej półki', doi: '10.PNB/lodowka.2024.188' },
+                { title: 'Matematyczne dowody że w kolejce obok zawsze jest szybciej', doi: '10.PNB/obok.2024.189' },
+                { title: 'Entropia w szufladzie z kablami: dlaczego zawsze się plączą', doi: '10.PNB/kable.2024.190' },
+                { title: 'Kwantowe splątanie skarpetek w pralce: gdzie znikają i dokąd idą', doi: '10.PNB/pralka.2024.191' },
+                { title: 'Biologia molekularna kurzu: skąd się bierze i dlaczego wraca', doi: '10.PNB/kurz.2024.192' },
+                { title: 'Teoria chaosu w ruchu ulicznym: efekt motyla na rondzie', doi: '10.PNB/rondo.2024.193' },
+                { title: 'Antropologia kolejki po hot-doga na Orlenie: rytuały i hierarchie', doi: '10.PNB/orlen.2024.194' },
+                { title: 'Dlaczego WiFi działa wszędzie oprócz tam gdzie potrzebujesz: fizyka fal i ironii', doi: '10.PNB/wifi.2024.195' },
+                { title: 'Paleontologia lodówki: datowanie radiowęglowe resztek w pojemnikach', doi: '10.PNB/resztki.2024.196' },
+                { title: 'Mechanika kwantowa długopisu: istnieje i nie istnieje gdy go potrzebujesz', doi: '10.PNB/dlugopis.2024.197' },
+                { title: 'Ekologia balkonów blokowych: bioróżnorodność między pelargoniami', doi: '10.PNB/balkony.2024.198' },
+                { title: 'Termodynamika herbaty: zawsze za gorąca lub za zimna, nigdy idealna', doi: '10.PNB/herbata.2024.199' },
+                { title: 'Genetyczne predyspozycje do zgubienia kluczy: dziedziczenie roztargnienia', doi: '10.PNB/roztargnienie.2024.200' }
             ];
             
-            // Create a 50/50 mix of real and fake papers
-            const papersToDisplay = [];
-            const halfPapers = Math.floor(maxPapers / 2);
-            
-            // Try to fetch real papers from API
-            try {
-                const response = await fetch(`https://api.crossref.org/works?query=digital+library&rows=${halfPapers}`);
-                const data = await response.json();
-                
-                if (data.message && data.message.items) {
-                    // Add real papers (up to half)
-                    data.message.items.slice(0, halfPapers).forEach(paper => {
-                        papersToDisplay.push({ paper, isFromAPI: true });
-                    });
-                }
-            } catch (error) {
-                console.log('Could not load real papers:', error);
-            }
-            
-            // Add fake papers to reach 50/50 mix
-            const remainingSlots = maxPapers - papersToDisplay.length;
+            // Use only fake papers
             const shuffledFakes = [...fakePapers].sort(() => Math.random() - 0.5);
-            shuffledFakes.slice(0, remainingSlots).forEach(paper => {
-                papersToDisplay.push({ paper, isFromAPI: false });
-            });
-            
-            // Shuffle all papers together for random distribution
-            const shuffledPapers = papersToDisplay.sort(() => Math.random() - 0.5);
+            const papersToDisplay = shuffledFakes.slice(0, maxPapers).map(paper => ({ paper, isFromAPI: false }));
             
             // Display all papers with delays
-            shuffledPapers.forEach((item, index) => {
+            papersToDisplay.forEach((item, index) => {
                 setTimeout(() => {
                     const paperElement = createPaperElement(item.paper, item.isFromAPI);
                     if (paperElement) {
@@ -1380,19 +1558,6 @@
                     }
                 }, index * 200);
             });
-            
-            // If no papers were loaded, show only fake papers as fallback
-            if (papersToDisplay.length === 0) {
-                console.log('Loading fallback papers only');
-                shuffledFakes.slice(0, maxPapers).forEach((paper, index) => {
-                    setTimeout(() => {
-                        const paperElement = createPaperElement(paper, false);
-                        if (paperElement) {
-                            papersBackground.appendChild(paperElement);
-                        }
-                    }, index * 200);
-                });
-            }
         }
         
         // Function to make papers escape from mouse
