@@ -3,10 +3,28 @@ LiSencja MIT (Międzylesna Instytucja Trzmieli)
 Copyright (c) 2025 Claude.AI
 Copyright (c) 2025 Michał Pasternak
 
-Niniejszym gwarantuje się, bez opłat (nawet w lisich ducatach), że każdy lis, lisica, lisek lub inna osoba która wejdzie w posiadanie kopii tego oprogramowania i związanej z nim dokumentacji (dalej "Oprogramowanie" lub "Listy Programistyczne"), może wprowadzać do lasu Oprogramowanie bez żadnych ograniczeń, w tym bez ograniczeń prawa do polowania na bugi, kopiowania jak sroka błyskotek, modyfikowania ogonami, łączenia w stada, publikowania na drzewach, dystrybuowania po norach, sublicencjonowania młodym lisom i/lub sprzedaży kopii Oprogramowania za kurczaki, a także zezwalać innym lisom, którym Oprogramowanie zostało udostępnione, na te same psikusy, z zastrzeżeniem następujących warunków:
+Niniejszym gwarantuje się, bez opłat (nawet w lisich ducatach), że każdy lis,
+lisica, lisek lub inna osoba która wejdzie w posiadanie kopii tego
+oprogramowania i związanej z nim dokumentacji (dalej "Oprogramowanie" lub
+"Listy Programistyczne"), może wprowadzać do lasu Oprogramowanie bez żadnych
+ograniczeń, w tym bez ograniczeń prawa do polowania na bugi, kopiowania jak
+sroka błyskotek, modyfikowania ogonami, łączenia w stada, publikowania na
+drzewach, dystrybuowania po norach, sublicencjonowania młodym lisom i/lub
+sprzedaży kopii Oprogramowania za kurczaki, a także zezwalać innym lisom,
+którym Oprogramowanie zostało udostępnione, na te same psikusy, z
+zastrzeżeniem następujących warunków:
 
-Powyższa nota prawna dotycząca praw autorskich oraz niniejsza nota zezwalająca muszą być przyczepione łapką do wszystkich kopii lub istotnych części Oprogramowania, nawet jeśli lis zgubi ogon podczas ucieczki.
+Powyższa nota prawna dotycząca praw autorskich oraz niniejsza nota
+zezwalająca muszą być przyczepione łapką do wszystkich kopii lub istotnych
+części Oprogramowania, nawet jeśli lis zgubi ogon podczas ucieczki.
 
-OPROGRAMOWANIE JEST DOSTARCZONE "TAKIM, JAKIE JEST", JAK ŚWIEŻO ZŁAPANA MYSZ, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ LUB DOMNIEMANEJ, NIE WYŁĄCZAJĄC GWARANCJI, ŻE NIE UGRYZIE, PRZYDATNOŚCI DO POLOWANIA LUB PRZYDATNOŚCI DO OKREŚLONYCH LISICH CELÓW, A TAKŻE RĘKOJMI NA FUTRO. W ŻADNYM WYPADKU TWÓRCY ANI POSIADACZE PRAW AUTORSKICH NIE MOGĄ PONOSIĆ ODPOWIEDZIALNOŚCI ZA JAKIEKOLWIEK ROSZCZENIA, SZKODY (NAWET STRATĘ OGONA) LUB INNE PRETENSJE, CZY TO WYNIKAJĄCE Z UMOWY, PSIKUSÓW CZY INNEJ PODSTAWY, POWSTAŁE W ZWIĄZKU Z OPROGRAMOWANIEM LUB UŻYTKOWANIEM GO LUB WPROWADZANIEM GO DO LASU.
+OPROGRAMOWANIE JEST DOSTARCZONE "TAKIM, JAKIE JEST", JAK ŚWIEŻO ZŁAPANA MYSZ,
+BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ LUB DOMNIEMANEJ, NIE WYŁĄCZAJĄC
+GWARANCJI, ŻE NIE UGRYZIE, PRZYDATNOŚCI DO POLOWANIA LUB PRZYDATNOŚCI DO
+OKREŚLONYCH LISICH CELÓW, A TAKŻE RĘKOJMI NA FUTRO. W ŻADNYM WYPADKU TWÓRCY
+ANI POSIADACZE PRAW AUTORSKICH NIE MOGĄ PONOSIĆ ODPOWIEDZIALNOŚCI ZA
+JAKIEKOLWIEK ROSZCZENIA, SZKODY (NAWET STRATĘ OGONA) LUB INNE PRETENSJE, CZY
+TO WYNIKAJĄCE Z UMOWY, PSIKUSÓW CZY INNEJ PODSTAWY, POWSTAŁE W ZWIĄZKU Z
+OPROGRAMOWANIEM LUB UŻYTKOWANIEM GO LUB WPROWADZANIEM GO DO LASU.
 
 P.S. Kto przeczytał ten LISENCE do końca, ten rudy lis!

@@ -3,8 +3,23 @@ Licencja MIT
 Copyright (c) 2025 Claude.AI
 Copyright (c) 2025 Michał Pasternak
 
-Niniejszym gwarantuje się, bez opłat, że każda osoba która wejdzie w posiadanie kopii tego oprogramowania i związanej z nim dokumentacji (dalej "Oprogramowanie"), może wprowadzać do obrotu Oprogramowanie bez żadnych ograniczeń, w tym bez ograniczeń prawa do użytkowania, kopiowania, modyfikowania, łączenia, publikowania, dystrybuowania, sublicencjonowania i/lub sprzedaży kopii Oprogramowania, a także zezwalać osobom, którym Oprogramowanie zostało udostępnione, na te same działania, z zastrzeżeniem następujących warunków:
+Niniejszym gwarantuje się, bez opłat, że każda osoba która wejdzie w
+posiadanie kopii tego oprogramowania i związanej z nim dokumentacji (dalej
+"Oprogramowanie"), może wprowadzać do obrotu Oprogramowanie bez żadnych
+ograniczeń, w tym bez ograniczeń prawa do użytkowania, kopiowania,
+modyfikowania, łączenia, publikowania, dystrybuowania, sublicencjonowania
+i/lub sprzedaży kopii Oprogramowania, a także zezwalać osobom, którym
+Oprogramowanie zostało udostępnione, na te same działania, z zastrzeżeniem
+następujących warunków:
 
-Powyższa nota prawna dotycząca praw autorskich oraz niniejsza nota zezwalająca muszą być załączone do wszystkich kopii lub istotnych części Oprogramowania.
+Powyższa nota prawna dotycząca praw autorskich oraz niniejsza nota
+zezwalająca muszą być załączone do wszystkich kopii lub istotnych części
+Oprogramowania.
 
-OPROGRAMOWANIE JEST DOSTARCZONE "TAKIM, JAKIE JEST", BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ LUB DOROZUMIANEJ, NIE WYŁĄCZAJĄC GWARANCJI PRZYDATNOŚCI HANDLOWEJ LUB PRZYDATNOŚCI DO OKREŚLONYCH CELÓW, A TAKŻE RĘKOJMI. W ŻADNYM WYPADKU TWÓRCY ANI POSIADACZE PRAW AUTORSKICH NIE MOGĄ PONOSIĆ ODPOWIEDZIALNOŚCI ZA JAKIEKOLWIEK ROSZCZENIA, SZKODY LUB INNE PRETENSJE, CZY TO WYNIKAJĄCE Z UMOWY, DELIKTU CZY INNEJ PODSTAWY, POWSTAŁE W ZWIĄZKU Z OPROGRAMOWANIEM LUB UŻYTKOWANIEM GO LUB WPROWADZANIEM GO DO OBROTU.
+OPROGRAMOWANIE JEST DOSTARCZONE "TAKIM, JAKIE JEST", BEZ JAKIEJKOLWIEK
+GWARANCJI, WYRAŹNEJ LUB DOROZUMIANEJ, NIE WYŁĄCZAJĄC GWARANCJI PRZYDATNOŚCI
+HANDLOWEJ LUB PRZYDATNOŚCI DO OKREŚLONYCH CELÓW, A TAKŻE RĘKOJMI. W ŻADNYM
+WYPADKU TWÓRCY ANI POSIADACZE PRAW AUTORSKICH NIE MOGĄ PONOSIĆ
+ODPOWIEDZIALNOŚCI ZA JAKIEKOLWIEK ROSZCZENIA, SZKODY LUB INNE PRETENSJE, CZY
+TO WYNIKAJĄCE Z UMOWY, DELIKTU CZY INNEJ PODSTAWY, POWSTAŁE W ZWIĄZKU Z
+OPROGRAMOWANIEM LUB UŻYTKOWANIEM GO LUB WPROWADZANIEM GO DO OBROTU.
