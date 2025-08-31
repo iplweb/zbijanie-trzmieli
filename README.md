@@ -17,7 +17,7 @@ Pewnego dnia, przez dziurę w firewallu (ktoś zostawił port 8080 otwarty, bo "
 - `definitely_not_a_trzmiel.exe` - 0.8 TB
 
 ### Akt III: Ty wkraczasz do akcji!
-Uzbrojony w wirtualną paczkę (komenda `rm -rf`), musisz zbijać trzmiele zanim zapełnią całe 20 TB!
+Uzbrojony w wirtualną muchoklepkę, musisz zbijać trzmiele zanim zapełnią całe 20 TB!
 
 ## 🎮 Mechanika gry
 
@@ -45,14 +45,6 @@ Uzbrojony w wirtualną paczkę (komenda `rm -rf`), musisz zbijać trzmiele zanim
 - **19.9 TB zajęte**: "Modlitwa to jedyne co zostało"
 - **20 TB zajęte**: ☠️ AWARIA SERWERA ☠️
 
-## 🐝 Rodzaje Trzmieli-Plików
-
-1. **TrzmielLog** (0.5 TB) - wolny, łatwy cel
-2. **TrzmielZIP** (1.0 TB) - średnio szybki, czasem się rozpakuje na 3 mniejsze
-3. **TrzmielISO** (2.0 TB) - gruby i leniwy
-4. **TrzmielNode_Modules** (∞ TB) - BOSS, pojawia się co 100 punktów
-5. **TrzmielBackup** (1.5 TB) - ironicznie, to backup trzmieli
-
 ## 🚨 CO SIĘ DZIEJE GDY SERWER PADNIE?
 
 Gdy zapełnisz 20 TB, następuje KRYTYCZNA AWARIA:
@@ -61,13 +53,6 @@ Gdy zapełnisz 20 TB, następuje KRYTYCZNA AWARIA:
 - Audiobooki zaczynają być czytane od tyłu
 - Baza danych zwraca tylko "404: Książka not found"
 - Bibliotekarze płaczą
-
-## 🎯 Wskazówki PRO
-
-- **Priorytet**: Zbijaj najpierw największe pliki!
-- **Combo**: 5 trzmieli z rzędu = tryb DEFRAGMENTACJA
-- **Easter Egg**: Wpisz "sudo" dla mocy admina
-- **Sekret**: Alt+F4 nie działa, nie próbuj
 
 ## 📊 Statystyki w czasie rzeczywistym
 
@@ -89,19 +74,13 @@ Ilość kawy: 7 kubków
 
 ## 📜 Instalacja
 
-```bash
-git clone https://github.com/PNB/zbijanie-trzmieli.git
-cd zbijanie-trzmieli
-npm install --save-przestrzen-dyskowa
-npm run ratuj-serwer
-```
+Aby uruchomić grę, kliknij tutaj:
+https://htmlpreview.github.io/?https://raw.githubusercontent.com/iplweb/zbijanie-trzmieli/refs/heads/main/index.html
 
 ## 🎮 Sterowanie
 
 - **Mysz**: Celuj w trzmiele
 - **LPM**: DELETE!
-- **PPM**: Sprawdź właściwości pliku (ile TB)
-- **Scroll**: Panikuj szybciej/wolniej
 - **Ctrl+Alt+Del**: Ostateczność
 
 ## 📞 Wsparcie techniczne IT
@@ -122,8 +101,3 @@ npm run ratuj-serwer
 
 ## **Gdy widzisz ul - wiesz, co robić!**
 
----
-
-*Dedykowane wszystkim administratorom, którzy kiedykolwiek zobaczyli "Disk space: 0 bytes remaining"*
-
-*PS: Backup? A co to? Trzmiele zjadły.*
